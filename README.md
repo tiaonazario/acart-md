@@ -10,11 +10,12 @@ Academic Article in Markdown
   - [Visual Studio Code](https://code.visualstudio.com/download)
   - [GNU Make / Makefile](https://www.gnu.org/software/make/)
 - Create a folder structure
-  - \<name>/
-    - ├─ build/
-    - ├─ \<filename>.md
-    - ├─ bibliography.bib
-    - └─ Makefile
+  \<name>/
+  ├─ assets/citation-style.cls
+  ├─ build/
+  ├─ \<filename>.md
+  ├─ bibliography.bib
+  └─ Makefile
 
 ## References
 
