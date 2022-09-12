@@ -1,0 +1,61 @@
+{
+    "tabnine.experimentalAutoImports": true,
+    "editor.minimap.enabled": false,
+
+    // Fonte
+    "editor.fontFamily":"JetBrains Mono",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 16,
+
+    // Formatação de códigos com o Prettier
+    // "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "python.linting.pylintPath": ".venv/Scripts/pylint",
+    "workbench.colorTheme": "Omni",
+    // "[python]": {
+    //     "editor.defaultFormatter": "ms-python.python"
+    // },
+
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+      },
+      "isort.args":["--profile", "black"],
+
+    "editor.formatOnSave": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "markdown-preview-enhanced.latexEngine": "xelatex",
+    "markdown-preview-enhanced.usePandocParser": true,
+    "files.associations": {
+        "*.md": "markdown"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "markdown-preview-enhanced.pandocArguments": [
+        "--standalone"
+        // "--filter=pandoc-crossref",
+        // "--filter pandoc-xnos",
+        // "--filter=pandoc-crossref",
+    ],
+    "markdown-preview-enhanced.previewTheme": "one-light.css",
+    "markdown-preview-enhanced.enableExtendedTableSyntax": true,
+    "markdown-preview-enhanced.enableTypographer": true,
+    "markdown-preview-enhanced.mathRenderingOption": "MathJax"
+}

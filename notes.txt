@@ -1,0 +1,8 @@
+https://www.ime.usp.br/~rfarias/simbolos.html
+
+
+\, (espaço muito pequeno), \: ou \; ou \quad e \qquad (espaço muito grande)
+
+https://www.tablesgenerator.com
+
+https://latex.codecogs.com/legacy/eqneditor/editor.php?lang=pt-br
